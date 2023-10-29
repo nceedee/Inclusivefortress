@@ -7,7 +7,7 @@ export const OurDevisionSide = () => {
   return (
     <div className="bg-primary p-8 flex flex-col space-y-4 text-accent relative">
       <div>
-        <h1 className="text-7xl font-bold">Our Divisions</h1>
+        <h1 className="md:text-7xl sm:text-3xl font-bold">Our Divisions</h1>
       </div>
       <div className="relative h-96">
         <Image
