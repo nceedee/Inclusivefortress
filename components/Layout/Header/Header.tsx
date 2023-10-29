@@ -55,16 +55,32 @@ export const Header = () => {
                 </li>
                 <li
                   onClick={() => setShowDropdown(!showDropdown)}
-                  className={`relative pb-6 text-xl cursor-pointer text-accent py-2 md:px-6 text-center border-b-2 md:border-b-0 border-secondary md:hover:text-secondary md:hover:bg-transparent`}
+                  className={`relative pb-6 text-xl sm:hidden md:block cursor-pointer text-accent py-2 md:px-6 text-center border-b-2 md:border-b-0 border-secondary md:hover:text-secondary md:hover:bg-transparent`}
                 >
                   <div>
                     Divisions
                     {showDropdown && (
                       <div className="p-4 bg-accent rounded-b absolute top-20 w-[180px] left-[-24px]">
-                        <Link href="/" className="text-primary">Inclusive White</Link>
+                        <Link
+                          href="/divisions/inclusive-white"
+                          className="text-primary"
+                        >
+                          Inclusive White
+                        </Link>
                       </div>
                     )}
                   </div>
+                </li>
+                <li
+                  onClick={() => setShowDropdown(!showDropdown)}
+                  className={`relative pb-6 text-xl cursor-pointer sm:block  md:hidden text-accent py-2 md:px-6 text-center border-b-2 md:border-b-0 border-secondary md:hover:text-secondary md:hover:bg-transparent`}
+                >
+                  <Link
+                    href="/divisions/inclusive-white"
+                    onClick={() => setNavbar(!navbar)}
+                  >
+                    Inclusive White
+                  </Link>
                 </li>
                 <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-secondary  border-secondary  md:hover:text-secondary md:hover:bg-transparent">
                   <Link
