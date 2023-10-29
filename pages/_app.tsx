@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+          <div className="max-w-[2000px] m-auto">
             <Component {...pageProps} />
           </div>
         </main>
