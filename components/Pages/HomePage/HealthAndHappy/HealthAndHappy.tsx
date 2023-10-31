@@ -10,7 +10,7 @@ export const HealthAndHappy = () => {
         </h1>
       </div>
       <div
-        className="max-w-[2000px] h-[100vh] w-full bg-no-repeat flex flex-col justify-center bg-cover bg-center"
+        className="max-w-[2000px] py-20 w-full bg-no-repeat flex flex-col justify-center bg-cover bg-center"
         style={{ backgroundImage: `url('/image/teeth.png')` }}
       >
         <div className="bg-accent text-primary rounded  md:w-[50%]  sm:w-[80%] p-6">
