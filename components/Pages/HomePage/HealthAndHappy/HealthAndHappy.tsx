@@ -3,7 +3,7 @@ import React from "react";
 
 export const HealthAndHappy = () => {
   return (
-    <div className=" text-accent my-16">
+    <div className=" text-accent mt-16">
       <div className="bg-primary p-8">
         <h1 className="md:text-7xl sm:3xl font-bold max-w-[2000px] text-center">
           Healthier & Happier World{" "}

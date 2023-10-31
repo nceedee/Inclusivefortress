@@ -52,7 +52,10 @@ export const BackgroundImage = () => {
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-primary text-accent cursor-pointer">
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
       </div>
-      <Link href="/contact" className="absolute bottom-28 left-1/2 transform -translate-x-1/2 z-10 bg-primary text-accent">
+      <Link
+        href="/contact"
+        className="absolute bottom-28 left-1/2 transform -translate-x-1/2 z-10 bg-primary text-accent"
+      >
         <Button>Contact Us</Button>
       </Link>
       {/* Right Arrow */}
