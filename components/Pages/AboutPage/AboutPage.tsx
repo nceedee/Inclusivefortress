@@ -9,7 +9,10 @@ export const AboutPage = () => {
     <div>
       <AboutBackgroundImage />
       <AllAboutUs />
-      <CorporateCulture />
+      <div>
+        <h1 className="text-center text-5xl text-secondary font-bold p-4">Corporate Culture</h1>
+        <CorporateCulture />
+      </div>
     </div>
   );
 };

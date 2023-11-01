@@ -4,7 +4,7 @@ import { tabs } from "./CorpData";
 
 export const CorporateCulture = () => {
   return (
-    <div className="flex w-full flex-col my-11 items-center    p-8 bg-primary">
+    <div className="flex w-full flex-col mb-11 items-center    p-8 bg-primary">
       <Tabs
         aria-label="Dynamic tabs"
         items={tabs}
