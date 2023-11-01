@@ -1,7 +1,12 @@
+import { AboutPage } from "@/components/Pages/AboutPage/AboutPage";
 import React from "react";
 
-const AboutPage = () => {
-  return <div>About page</div>;
+const AboutPageRoute = () => {
+  return (
+    <div>
+      <AboutPage />
+    </div>
+  );
 };
 
-export default AboutPage;
+export default AboutPageRoute;
