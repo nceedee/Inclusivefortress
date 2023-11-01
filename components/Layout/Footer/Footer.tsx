@@ -33,7 +33,7 @@ export const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="border-t mt-6 flex justify-around p-9 items-center">
+      <div className="border-t mt-6 flex sm:flex-col md:flex-row sm:text-center sm:space-y-4 justify-around p-9 items-center">
         <Link href="/" className="bg-secondary text-accent">
           Inclusive Fortress
         </Link>
