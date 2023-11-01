@@ -1,7 +1,12 @@
+import { ContactPage } from "@/components/Pages/ContactPage/ContactPage";
 import React from "react";
 
-const ContactPage = () => {
-  return <div>contact page</div>;
+const ContactPageRouter = () => {
+  return (
+    <div>
+      <ContactPage />
+    </div>
+  );
 };
 
-export default ContactPage;
+export default ContactPageRouter;

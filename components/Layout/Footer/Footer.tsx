@@ -33,6 +33,12 @@ export const Footer = () => {
           </Link>
         </div>
       </div>
+      <div className="border-t mt-6 flex justify-around p-9 items-center">
+        <Link href="/" className="bg-secondary text-accent">
+          Inclusive Fortress
+        </Link>
+        <p>© 2023 InclusiveWhite, All Rights Reserved</p>
+      </div>
     </footer>
   );
 };
