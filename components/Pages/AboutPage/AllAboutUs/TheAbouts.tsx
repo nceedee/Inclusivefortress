@@ -63,32 +63,17 @@ export const TheAbouts = () => {
         className="text-primary"
       >
         <p>
-          Our Research and Development team are well-equipped and constantly
-          focused on the future. This allows us to stay ahead of trends, latest
-          development and competition. We have premium quality products that
-          care for the hair, face, body, mouth, feet and intimate areas. There
-          is no exception to who can use our products. We have made it possible
-          to meet the needs of everyone irrespective of gender, age, race or
-          religion.
+          {`Day by day, science continues to make discoveries and new technologies continue to emerge. We have our research team who are always up to date with information. Also we have companies, experts and bodies in and outside Nigeria that we're working with in order to keep tabs on the current emphasis so that we can be fresh, timely and efficient in our delivery. Our dedication keeps us always on the lookout.`}
         </p>
-        <h3 className="mt-4 font-bold">
-          This is why we remain the future of body care in Africa!
-        </h3>
       </AccordionItem>
       <AccordionItem
-        key="3"
-        aria-label="Our Reach"
-        title="Our Reach"
+        key="4"
+        aria-label="Our Reach Dream"
+        title="Our Reach Dream"
         className="text-primary"
       >
         <p>
-          Currently, Avila has over two thousand distributors of different cadre
-          across Nigeria and other countries like Ghana, Egypt, Ivory Coast,
-          Republic of Benin, Equatorial guinea and Zambia as well as Bahrain,
-          the United Kingdom and the United States of America. The company hopes
-          to expand its distribution channels to more countries like the United
-          Arab Emirates, Singapore, Sweden and across the continents of the
-          world.
+          {`Our reach dream is the ends of the Earth. Until everyone and every family not just knows us but has our product in their homes, we're not successful. Every nation, every tribe, every tongue, every color, every gender, every age, every family and every person.`}
         </p>
       </AccordionItem>
     </Accordion>

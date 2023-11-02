@@ -4,11 +4,11 @@ import { tabs } from "./CorpData";
 
 export const CorporateCulture = () => {
   return (
-    <div className="flex w-full flex-col mb-11 items-center    p-8 bg-primary">
+    <div className="flex w-full flex-col mb-11 items-center  p-8 bg-primary">
       <Tabs
         aria-label="Dynamic tabs"
         items={tabs}
-        className="sm:w-full md:w-[60%]"
+        className="sm:w-full  m-auto"
       >
         {(item) => (
           <Tab
@@ -16,7 +16,7 @@ export const CorporateCulture = () => {
             title={item.label}
             className="flex items-center justify-center m-auto text-center"
           >
-            <Card className="sm:w-full md:w-[60%]">
+            <Card className="sm:w-full ">
               <CardBody>{item.content}</CardBody>
             </Card>
           </Tab>
