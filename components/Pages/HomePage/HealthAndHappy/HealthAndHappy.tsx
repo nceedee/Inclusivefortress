@@ -11,21 +11,33 @@ export const HealthAndHappy = () => {
         </h1>
       </div>
       <div
-        className="max-w-[2000px] py-20 w-full bg-no-repeat flex flex-col justify-center bg-cover bg-center"
+        className="max-w-[2000px] py-20 w-full bg-no-repeat flex flex-col sm:p-4 md:p-0 justify-center bg-cover bg-center"
         style={{ backgroundImage: `url('/image/teeth.png')` }}
       >
-        <div className="bg-accent text-primary rounded  md:w-[50%]  sm:w-[80%] p-6">
+        <div className="bg-accent text-primary rounded  md:w-[50%]  sm:w-[100%]  p-6">
           <h4 className="md:text-2xl sm:text-1xl font-bold">
             Explore the Features Of
           </h4>
-          <h1 className="font-bold md:text-6xl sm:text-4xl">Our Brand</h1>
-          <h1 className="font-bold md:text-6xl sm:text-4xl"> Story</h1>
+          <h1 className="font-bold md:text-6xl sm:text-4xl">Our Story</h1>
           <p className="mt-5">
-            I got the divine inspiration to start working on how to proffer solutions to thousands of people having
-            unhealthy teeth and unwhite teeths.
+            {`First is that we're a Faith based establishment, firmly rooted in
+            God and we're not repentant about our Faith. It was by the leading
+            of God that this establishment was found. Just like every other
+            genuine business, we started very small with what was at our
+            disposal. Judging by where we were, it was madness to believe that
+            the vision God has for this establishment is "THE ENDS OF THE
+            EARTH". There's no establishment without challenges. We have
+            experienced and still are experiencing challenges. One of the
+            challenges of this time is in the area of compromise. If you ever
+            stand to do business in righteousness and in integrity, it is like
+            declaring war. We have maintained our ground and will continue to
+            deal with our customers rightly upholding integrity. We have our
+            values and we're not ready to compromise them or even step them
+            down. We believe God is the owner of this establishment and we're
+            just stewards who will give account.`}
           </p>
           <Button className="mt-5">
-            <Link href='/about'>Read More</Link>
+            <Link href="/about">Read More</Link>
           </Button>
         </div>
       </div>

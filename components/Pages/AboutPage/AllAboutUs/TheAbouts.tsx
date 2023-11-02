@@ -46,12 +46,14 @@ export const TheAbouts = () => {
         className="text-primary"
       >
         <p>
-          Avila Naturalle recently birthed the Avilan Naturalle Foods and
-          Supplements, a sister company that is dedicated to providing the
-          highest quality 100% natural, healthy and nutritious food products to
-          Nigerians and Africans at large. The company is committed to enriching
-          lives through natural, healthy, safe and affordable foods products
-          that are necessary for a better quality of life.
+          {` Inclusive white is a generic brand with emphasis on oral health under
+          Inclusive Fortress Limited. Inclusive white is a division under
+          Inclusive Fortress that deals primary on Oral health products and
+          services. We're a people with the vision to extend the knowledge and
+          the importance of oral health to every family on earth. So we're not
+          just providing products, we provide Knowledge, awareness and services.
+          As insignificant as oral health seem in our societies today, the
+          comfort, the confidence and the peace of the whole body depends on it.`}
         </p>
       </AccordionItem>
       <AccordionItem
