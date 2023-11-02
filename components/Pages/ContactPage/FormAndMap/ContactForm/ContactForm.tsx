@@ -26,7 +26,7 @@ export const ContactForm: React.FC = () => {
 
   return (
     <form
-      action="https://formsubmit.co/inclusivefortress@gmail.com"
+      action="https://formspree.io/f/meqbdaeb"
       method="POST"
       className="md:w-[40%] sm:w-[90%]"
     >
