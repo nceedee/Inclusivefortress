@@ -5,13 +5,13 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <footer className="bg-primary h-auto mt-auto text-accent p-8">
-      <div className="max-w-[2000px] space-y-8 items-center sm:flex-col md:flex-row flex justify-around w-full m-auto">
+      <div className="max-w-[2000px] sm:space-y-8 md:space-y-0 sm:items-center md:items-start sm:flex-col md:flex-row flex justify-around w-full m-auto">
         <div className="md:w-[25%] sm:w-[100%]">
           <h4 className="text-2xl font-bold">About Inclusive Fortress</h4>
           <p>
-            Avila Naturalle is a leading manufacturer of 100% NATURAL body care
-            products in Africa. Since inception in 2017, the company has
-            redefined the Nigerian Skincare
+            We proudly traverse the diverse landscapes of healthcare and general
+            supplies, driven by a profound dedication to making a transformative
+            difference in the lives of people around the world.
           </p>
           <Link href="/about" className="hover:text-secondary mt-8">
             Read More...
