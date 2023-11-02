@@ -4,7 +4,7 @@ import React from 'react'
 export const Mission = () => {
   return (
     <div className=" bg-accent shadow-lg p-6 rounded-md">
-      <div className='border-b'>
+      <div className="border-b">
         <Image
           src="/image/mission-statement.jpg"
           alt=""
@@ -16,18 +16,10 @@ export const Mission = () => {
       </div>
       <div className="mt-5">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla totam,
-          accusamus culpa ab expedita magni dolores minima eligendi sequi
-          accusantium dolorum laudantium maiores? Voluptatem magnam fugiat
-          cumque delectus autem sed aliquid assumenda quo et magni recusandae
-          vero natus tempora dolorem, est dignissimos nulla ad laudantium illo,
-          perferendis accusantium. Aliquid, non. Ipsa voluptatum corporis
-          numquam quam iusto voluptatem dolorem harum nisi ullam, velit non et
-          molestiae blanditiis sequi reprehenderit atque repudiandae nemo.
-          Quisquam hic sequi ex consectetur praesentium tempore ab neque
-          similique exercitationem rem adipisci, assumenda atque temporibus
-          pariatur. Modi quia incidunt commodi harum vero nulla alias quod cum
-          facilis eum.
+          Our mission is to deliver exceptional comfort and satisfaction through
+          trusted, high-quality products and services. We uphold unwavering
+          integrity and believe in the power of serving humanity. With faith and
+          dedication, we aim to impact our societies and the world at large.
         </p>
       </div>
     </div>

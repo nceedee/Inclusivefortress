@@ -23,12 +23,9 @@ export const LearnAbout = () => {
           <h2 className="font-bold">Fortress</h2>
         </div>
         <p>
-          Avila Naturalle is a leading manufacturer of 100% NATURAL Skincare
-          products in Africa. Since inception in 2017, the company has redefined
-          the Nigerian body care space by promoting the health and safety of
-          Nigerians through the encouragement of the adoption of all-natural
-          body care solutions comprising of skincare, hair care, mouth care,
-          foot care etc.
+          We proudly traverse the diverse landscapes of healthcare and general
+          supplies, driven by a profound dedication to making a transformative
+          difference in the lives of people around the world.
         </p>
         <Button className="mt-4">
           <Link href="/about">Read More</Link>

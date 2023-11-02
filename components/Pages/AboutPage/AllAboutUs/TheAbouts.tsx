@@ -13,26 +13,30 @@ export const TheAbouts = () => {
         className="text-primary"
       >
         <p>
-          Avila Naturalle is a leading manufacturer of 100% NATURAL body care
-          products in Africa. Since inception in 2017, the company has redefined
-          the Nigerian body care space by promoting the health and safety of
-          Nigerians through the encouragement of the adoption of all-natural
-          body care solutions comprising of skincare, hair care, mouth care,
-          foot care etc. The overall vision of the company is driven by the need
-          to help Nigerians break free from toxic and harmful chemical-based
-          body care products by creating a culture and an enabling environment
-          for natural body care solutions to thrive. At Avila, we believe that a
-          body care company is only as good as the quality of its products. This
-          is why we strive to ensure sustainable growth through continuous
-          improvement in all our products in order to enrich the lives of our
-          customers. Creating skin and hair care products that are 100% natural
-          would not feel right if we did not put all our passion into it. This
-          is our secret to creating products that are not only pleasant but also
-          powerful and effective in enhancing skin glow naturally or providing
-          solutions to skin-related challenges. We believe in providing the best
-          skin care products possible. Our products are 100% natural, free of
-          parabens, animal by-products, propylene glycol, sodium lauryl
-          sulfates, mineral oils, colorant, petroleum and chemicals.
+          Inclusive Fortress Limited, a proudly Nigerian-owned enterprise,
+          officially took root on the 27th of August 2023. Our unwavering
+          mission, founded on the principles of unparalleled comfort, unwavering
+          integrity, and a global vision, is the cornerstone of our existence.
+          We shine in two dynamic industries, healthcare and general supplies.
+          Vision: Our vision is to ascend to a global pinnacle, where we reign
+          as the standard-bearers of comfort and satisfaction. We pledge to set
+          the gold standard for integrity in all our endeavors. It is our
+          audacious aspiration to create a profound and lasting impact on
+          societies across the globe, reshaping them into more comfortable,
+          harmonious, and interconnected communities, with our influence
+          stretching to the farthest reaches of the Earth. Mission: At Inclusive
+          Fortress Limited, our mission is to deliver a tapestry of exceptional
+          comfort and satisfaction through trusted, high-quality products and
+          services. Every day, we dedicate ourselves to upholding the
+          unbreakable bond of integrity while believing in the transformative
+          power of serving humanity. With unwavering faith and unbridled
+          dedication, our aim is to touch the lives of our communities and
+          extend our influence to the farthest corners of the world. Inclusive
+          Fortress Limited stands as a beacon of excellence, committed to
+          igniting positive change through our endeavors. We proudly traverse
+          the diverse landscapes of healthcare and general supplies, driven by a
+          profound dedication to making a transformative difference in the lives
+          of people around the world.
         </p>
       </AccordionItem>
       <AccordionItem

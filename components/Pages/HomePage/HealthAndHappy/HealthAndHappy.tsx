@@ -21,9 +21,8 @@ export const HealthAndHappy = () => {
           <h1 className="font-bold md:text-6xl sm:text-4xl">Our Brand</h1>
           <h1 className="font-bold md:text-6xl sm:text-4xl"> Story</h1>
           <p className="mt-5">
-            I got the divine inspiration to start working with natural
-            ingredients to proffer solutions to thousands of people having
-            skincare issues.
+            I got the divine inspiration to start working on how to proffer solutions to thousands of people having
+            unhealthy teeth and unwhite teeths.
           </p>
           <Button className="mt-5">
             <Link href='/about'>Read More</Link>

@@ -1,17 +1,17 @@
 export const products = [
   {
     id: 1,
-    name: "Teeth",
+    name: "Teeth whitening Activated organic Charcoal",
     image: "/image/Teethwhite.jpeg",
   },
   {
     id: 2,
-    name: "Tongue",
+    name: "Tongue scrapper",
     image: "/image/Tongue.jpeg",
   },
   {
     id: 3,
-    name: "Mouth",
+    name: "Mouth flosser",
     image: "/image/Mouth.jpeg",
   },
 
@@ -23,12 +23,12 @@ export const products = [
 
   {
     id: 5,
-    name: "Spray",
+    name: "Mouth Spray",
     image: "/image/spray.jpeg",
   },
   {
     id: 6,
-    name: "Home White",
+    name: "Home Whitening Kit",
     image: "/image/homewhite.jpeg",
   },
 ];

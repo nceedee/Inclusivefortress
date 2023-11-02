@@ -12,11 +12,11 @@ export const Address = () => {
         </div>
         <div className="flex space-x-6 items-center">
           <BsFillTelephoneFill />
-          <p className="text-[18px]">+ (234) 812 769 3839</p>
+          <p className="text-[18px]">+ (234) 903 159 4924</p>
         </div>
         <div className="flex space-x-6 items-center">
           <h4>@</h4>
-          <p className="text-[18px]">info@avilanaturalle.com</p>
+          <p className="text-[18px]">inclusivefortress@gmail.com</p>
         </div>
       </div>
     </div>
