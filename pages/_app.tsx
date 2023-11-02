@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import { NextUIProvider } from "@nextui-org/react";
 import type { AppProps } from "next/app";
 import { Footer } from "@/components/Layout/Footer/Footer";
+import { BackToTopArrow } from "@/components/Global/BackToTop";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
           </div>
         </main>
         <Footer />
+        <BackToTopArrow />
       </div>
     </NextUIProvider>
   );
