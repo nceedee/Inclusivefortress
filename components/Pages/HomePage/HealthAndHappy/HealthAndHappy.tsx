@@ -1,25 +1,31 @@
+import React, { useState } from "react";
 import { Button } from "@/components/Global/Button/Button";
 import Link from "next/link";
-import React from "react";
 
 export const HealthAndHappy = () => {
+  const [showFullText, setShowFullText] = useState(false);
+
+  const toggleFullText = () => {
+    setShowFullText(!showFullText);
+  };
+
   return (
-    <div className=" text-accent mt-16">
+    <div className="text-accent mt-16">
       <div className="bg-primary p-8">
         <h1 className="md:text-7xl sm:3xl font-bold max-w-[2000px] text-center">
-          Healthier & Happier World{" "}
+          Healthier & Happier World
         </h1>
       </div>
       <div
-        className="max-w-[2000px] py-20 w-full bg-no-repeat flex flex-col sm:p-4 md:p-0 justify-center bg-cover bg-center"
+        className="max-w-[2000px] py-20 w-full bg-no-repeat flex flex-col sm:p-4 justify-center bg-cover bg-center"
         style={{ backgroundImage: `url('/image/teeth.png')` }}
       >
-        <div className="bg-accent text-primary rounded  md:w-[50%]  sm:w-[100%]  p-6">
+        <div className="bg-accent text-primary rounded md:w-[50%] sm:w-[100%] p-6">
           <h4 className="md:text-2xl sm:text-1xl font-bold">
             Explore the Features Of
           </h4>
           <h1 className="font-bold md:text-6xl sm:text-4xl">Our Story</h1>
-          <p className="mt-5">
+          <p className={`mt-5 ${showFullText ? "" : "line-clamp-4"}`}>
             {`First is that we're a Faith based establishment, firmly rooted in
             God and we're not repentant about our Faith. It was by the leading
             of God that this establishment was found. Just like every other
@@ -36,9 +42,15 @@ export const HealthAndHappy = () => {
             down. We believe God is the owner of this establishment and we're
             just stewards who will give account.`}
           </p>
-          <Button className="mt-5">
-            <Link href="/about">Read More</Link>
-          </Button>
+          {showFullText ? (
+            <Button className="mt-5" onClick={toggleFullText}>
+              Show Less
+            </Button>
+          ) : (
+            <Button className="mt-5" onClick={toggleFullText}>
+              Read More
+            </Button>
+          )}
         </div>
       </div>
     </div>
