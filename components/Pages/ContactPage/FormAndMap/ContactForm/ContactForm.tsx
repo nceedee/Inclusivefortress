@@ -24,22 +24,12 @@ export const ContactForm: React.FC = () => {
     });
   };
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    // You can handle the form submission here, e.g., send data to the server.
-    // Access the form data in the 'formData' state.
-
-    console.log(formData);
-    // Reset the form fields
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
-    });
-  };
-
   return (
-    <form onSubmit={handleSubmit} className="md:w-[40%] sm:w-[90%]">
+    <form
+      action="https://formsubmit.co/inclusivefortress@gmail.com"
+      method="POST"
+      className="md:w-[40%] sm:w-[90%]"
+    >
       <div className="mb-4">
         <label
           htmlFor="name"
@@ -94,12 +84,7 @@ export const ContactForm: React.FC = () => {
         ></textarea>
       </div>
 
-      <Button
-        type="submit"
-        
-      >
-        Send
-      </Button>
+      <Button type="submit">Send</Button>
     </form>
   );
 };
