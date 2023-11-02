@@ -21,7 +21,7 @@ export const OurDevisionSide = () => {
             <div className="flex flex-col space-y-4">
               <h4 className="text-2xl font-bold">Inclusive White</h4>
               <Button>
-                <Link href="">Click here</Link>
+                <Link href="/divisions/inclusive-white">Click here</Link>
               </Button>
             </div>
           </div>

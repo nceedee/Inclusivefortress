@@ -1,4 +1,5 @@
 import { Button } from "@/components/Global/Button/Button";
+import Link from "next/link";
 import React from "react";
 
 export const HealthAndHappy = () => {
@@ -24,7 +25,9 @@ export const HealthAndHappy = () => {
             ingredients to proffer solutions to thousands of people having
             skincare issues.
           </p>
-          <Button className="mt-5">Read More</Button>
+          <Button className="mt-5">
+            <Link href='/about'>Read More</Link>
+          </Button>
         </div>
       </div>
     </div>

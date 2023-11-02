@@ -87,7 +87,7 @@ export const Header = () => {
                     href="/mision&vision"
                     onClick={() => setNavbar(!navbar)}
                   >
-                    Mision | Vision
+                    Mision | Vision Statement
                   </Link>
                 </li>
                 <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-secondary  border-secondary  md:hover:text-secondary md:hover:bg-transparent">
