@@ -17,7 +17,7 @@ export const tabs = [
   {
     id: "Culture",
     label: "Culture of Joy",
-    content: `Any establishment that desires to see good results must understand the importance of the joy culture of the staff. The joy culture of everyone is as important as anything that ranks first in preference. Here, we are concerned about about everyone, their welfare, their emotions. In Fact, it is our habit to lookout for one another. This is one thing lacking in the business world. Everyone is concerned about their money more than the people. If people achieve a task unhappy, they will achieve much more happy.`,
+    content: `Any establishment that desires to see good results must understand the importance of the joy culture of the staff. The joy culture of everyone is as important as anything that ranks first in preference. Here, we are concerned about everyone, their welfare, their emotions. In Fact, it is our habit to lookout for one another. This is one thing lacking in the business world. Everyone is concerned about their money more than the people. If people achieve a task unhappy, they will achieve much more happy.`,
   },
   {
     id: "Continuous",
