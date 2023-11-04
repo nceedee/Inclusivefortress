@@ -58,7 +58,7 @@ export const products = [
 
   {
     id: 4,
-    name: "V34",
+    name: "V34 TEETH COLOUR CORRECTOR",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, minima numquam. Minus sunt culpa, voluptas, fuga labore perspiciatis accusantium, odit impedit sequi iure at nostrum saepe amet officiis dolorem aut eveniet mollitia illo quibusdam laudantium atque sint tempore dolor ",
     image: "/image/v34.jpeg",

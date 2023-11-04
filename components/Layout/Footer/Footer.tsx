@@ -37,7 +37,7 @@ export const Footer = () => {
         <Link href="/" className="bg-secondary text-accent">
           Inclusive Fortress
         </Link>
-        <p>© 2023 InclusiveWhite, All Rights Reserved</p>
+        <p>© 2023 InclusiveFortress, All Rights Reserved</p>
       </div>
     </footer>
   );
