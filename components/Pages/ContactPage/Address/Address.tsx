@@ -1,6 +1,7 @@
 import React from "react";
 import { CiLocationOn } from "react-icons/ci";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 
 export const Address = () => {
   return (
@@ -12,11 +13,21 @@ export const Address = () => {
         </div>
         <div className="flex space-x-6 items-center">
           <BsFillTelephoneFill />
-          <p className="text-[18px]">+ (234) 903 159 4924</p>
+          <a className="text-[18px]" href="tel:+2349031594924">
+            + (234) 903 159 4924
+          </a>
+        </div>
+        <div className="flex space-x-6 items-center">
+          <AiOutlineWhatsApp />
+          <a href="https://wa.me/+2348026897080" className="text-[18px]">
+            +234 802 689 7080
+          </a>
         </div>
         <div className="flex space-x-6 items-center">
           <h4>@</h4>
-          <p className="text-[18px]">inclusivefortress@gmail.com</p>
+          <a className="text-[18px]" href="mailto:inclusivefortress@gmail.com">
+            inclusivefortress@gmail.com
+          </a>
         </div>
       </div>
     </div>
