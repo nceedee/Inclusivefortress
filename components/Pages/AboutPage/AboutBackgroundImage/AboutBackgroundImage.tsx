@@ -2,12 +2,12 @@ import React from "react";
 
 export const AboutBackgroundImage = () => {
   const backgroundImageStyle = {
-    backgroundImage: `linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('/image/aboutheader.png')`,
+    backgroundImage: `linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('/image/aboutbg.jpeg')`,
     backgroundSize: "cover",
-      backgroundRepeat: "no-repeat",
+    backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     height: "60vh",
-    width:"100%"
+    width: "100%",
   };
 
   return (
